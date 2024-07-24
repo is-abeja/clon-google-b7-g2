@@ -8,6 +8,11 @@ body {
     margin: 0px;
 }
 
+#perfil {
+    width: 35px;
+    border-radius: 50%;
+}
+
 figure {
     width: 20px;
     margin: 0px;
@@ -35,7 +40,7 @@ ul {
 }
 
 footer p {
-    padding: 15px;
+    padding: 14px;
     margin: 0px;
     border-bottom: 1px solid #dadce0;
 }
@@ -66,6 +71,12 @@ main {
     margin: 25px 0px 20px 0px;
 }
 
+#buscador:hover {
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: transparent;
+}
+
 #buscador input {
     flex-grow: 1;
     border: none;
@@ -94,8 +105,21 @@ button {
     font-size: 14px;
 }
 
-a {
+button:hover {
+    box-shadow: 0 1px 1px rgba(o, o, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
     color: #202124;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Esto es para cambiar un estado. */
+
+a:hover {
+    text-decoration: underline;
 }
 
 header a {
@@ -105,4 +129,9 @@ header a {
 footer a {
     font-size: 14px;
     color: #202124;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
 }
