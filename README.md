@@ -1,4 +1,4 @@
-# Portafolio de HABILIDADES DE TECNOLOCHICAS PRO
+# Clon de Google para TECNOLOCHICAS PRO
 
 El presente proyecto es un portafolio desarrollado para poner en práctica las habilidades obtenidad dentro del bootcamp de desarrollo frontend de Technolochicas PRO.
 
